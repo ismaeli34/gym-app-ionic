@@ -1,0 +1,60 @@
+
+
+ion-card {
+  --border:1px solid var(--ion-color-primary);
+  --border-radius:10px;
+  margin: 2vh 1vh;
+
+  div{
+    margin: 0.5vh;
+    ion-item{
+      --padding-start:0;
+      --inner-padding-end:0;
+      ion-label{
+        font-size: large;
+        font-weight: bold;
+        p{
+          font-size: medium;
+          font-weight: 500;
+          margin-top: 5px;
+        }
+      }
+      ion-thumbnail {
+        width: 4rem;
+        height: 4rem;
+        background: var(--ion-color-medium);
+        border-radius: 10px;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+
+        }
+      }
+      ion-icon {
+        font-size: 1.5rem;
+      }
+
+    }
+
+    ion-row{
+      width: 85%;
+      float: inline-end;
+      ion-col{
+        div{
+          ion-label{
+            font-size:0.75rem;
+          }
+          p{
+            font-size: 0.85rem;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+  }
+
+
+
+}
